@@ -1,0 +1,175 @@
+.Contact-information {
+  display: flex;
+  padding: 2%;
+  gap: 2%;
+}
+
+.Con-info {
+  width: 35%;
+  padding: 2%;
+  min-height: 18vh;
+  color: rgb(221, 213, 213);
+  background-color: rgba(16, 15, 15, 0.47);
+}
+
+/* Contact form */
+.contact-form {
+  width: 100%;
+  padding-top: 0;
+}
+textarea::placeholder {
+  padding: 1%;
+}
+
+.form {
+  background-color: transparent;
+  display: block;
+  padding-top: 0;
+  padding: 1rem;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+input {
+  background-color: transparent;
+}
+.input-container {
+  position: relative;
+}
+
+.input-container input,
+textarea,
+.form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+
+.input-container input,
+textarea {
+  background-color: transparent;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+textarea {
+  height: 20vh;
+}
+
+.submit {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: blue;
+  color: #ffffff;
+  font-size: 0.875rem;
+  cursor: pointer;
+  line-height: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+
+  width: 80%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.signup-link {
+  color: #6b7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.signup-link a {
+  text-decoration: underline;
+}
+
+#contact-hading {
+  padding-top: 2%;
+  padding-left: 1%;
+  color: rgb(223, 222, 222);
+  font-weight: normal;
+  font-family: "Lora", Arial, serif;
+  font-size: 1.8rem;
+}
+
+@media (max-width: 935px) {
+  .Contact-information {
+    flex-wrap: wrap;
+  }
+
+  #contact-hading {
+    padding-top: 5%;
+  }
+
+  .Con-info {
+    margin-top: 2%;
+    width: 100%;
+    padding: 5%;
+    height: 30vh;
+  }
+}
+
+@media (max-width: 650px) {
+  #contact-hading {
+    padding: 5%;
+  }
+  .form {
+    padding: 0rem;
+  }
+  .Con-info {
+    margin-top: 2%;
+    width: 100%;
+    padding: 5%;
+    height: 20vh;
+  }
+
+}
+/* Loader */
+.sbg {
+  width: 3.25em;
+  transform-origin: center;
+  animation: rotate4 2s linear infinite;
+}
+
+.crcl {
+  fill: none;
+  stroke: hsl(214, 97%, 59%);
+  stroke-width: 2;
+  stroke-dasharray: 1, 200;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  animation: dash4 1.5s ease-in-out infinite;
+}
+
+@keyframes rotate4 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash4 {
+  0% {
+    stroke-dasharray: 1, 200;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 90, 200;
+    stroke-dashoffset: -35px;
+  }
+
+  100% {
+    stroke-dashoffset: -125px;
+  }
+}
