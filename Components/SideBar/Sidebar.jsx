@@ -12,6 +12,7 @@ function Sidebar({ children }) {
     setSidebarOpen(!isSidebarOpen);
   };
 
+    
   return (
     <>
       <div className="flex">

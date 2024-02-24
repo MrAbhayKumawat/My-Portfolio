@@ -22,7 +22,7 @@ function Education() {
             </Link>
 
             <p>
-              I am doing my bachelor's degree in this institute. My course is
+              I am doing my bachelor's degree in this University. My course is
               Bachelors in technology in computer sceince..
             </p>
           </div>

@@ -99,12 +99,10 @@ function Home() {
             >
               <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
                 <img
-                  alt="spotify"
+                  alt="movie-website"
                   loading="lazy"
                   width="700"
                   height="700"
-                  decoding="async"
-                  data-nimg="1"
                   className="aspect-video object-cover 	"
                   style={{ color: "transparent" }}
                   src="https://happy-families.s3.ap-southeast-2.amazonaws.com/s3fs-public/styles/max_1300x1300/public/2022-10/AdobeStock_312349880%20%281%29.jpeg?itok=7BxOIvWX"
@@ -124,12 +122,10 @@ function Home() {
             >
               <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
                 <img
-                  alt="spotify"
+                  alt="Bogging"
                   loading="lazy"
                   width="700"
                   height="700"
-                  decoding="async"
-                  data-nimg="1"
                   className="aspect-video object-cover"
                   style={{ color: "transparent" }}
                   src="https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -144,17 +140,38 @@ function Home() {
             </Link>
             <Link
               target="blank"
+              to="https://poke-abhay.netlify.app/"
+              className="transition-transform hover:scale-95"
+            >
+              <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                <img
+                  alt="Bogging"
+                  loading="lazy"
+                  width="700"
+                  height="700"
+                  className="aspect-video object-cover"
+                  style={{ color: "transparent" }}
+                  src="https://w0.peakpx.com/wallpaper/6/78/HD-wallpaper-pokemon-go-2017-games-poster.jpg"
+                />
+                <div className="flex flex-col px-4 py-2 h-24">
+                  <div className="flex font-bold">Pokemon-App</div>
+                  <div className="flex text-info text-xs">
+                    React js , React Hook, FireBase, POkeApi, Material UI...
+                  </div>
+                </div>
+              </div>
+            </Link>
+            <Link
+              target="blank"
               to="https://musifyrington.netlify.app/"
               className="transition-transform hover:scale-95"
             >
               <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
                 <img
-                  alt="spotify"
+                  alt="Music-website"
                   loading="lazy"
                   width="700"
                   height="700"
-                  decoding="async"
-                  data-nimg="1"
                   className="aspect-video object-cover"
                   style={{ color: "transparent" }}
                   src="https://images.pexels.com/photos/14541034/pexels-photo-14541034.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
@@ -174,12 +191,10 @@ function Home() {
             >
               <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
                 <img
-                  alt="spotify"
+                  alt="Admin-panel"
                   loading="lazy"
                   width="700"
                   height="700"
-                  decoding="async"
-                  data-nimg="1"
                   className="aspect-video object-cover"
                   style={{ color: "transparent" }}
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzGlA8QpFXsk-D_A5seUqlVKV2JQviDRrR8e-xTxYhquge6UF66VpVO_6ueNKBUIh_53XgEG-w-RAJMuI-gOOopmHzUuOJu81mudA1Znnecr405Orpgza3XQW7SY00B2hk-szDAeC43TkYtzuPSGfFjMPpO1-iZFMF7bGxt34TDAUVLzzS4oopDQ3JUS0c/w638-h345/Screenshot%202023-12-22%20142745.png"
@@ -205,8 +220,6 @@ function Home() {
                   loading="lazy"
                   width="700"
                   height="700"
-                  decoding="async"
-                  data-nimg="1"
                   className="aspect-video object-cover"
                   style={{ color: "transparent" }}
                   src="https://www.isopensource.com/media/images/articles/eshop-click.jpg"
@@ -230,8 +243,6 @@ function Home() {
                   loading="lazy"
                   width="700"
                   height="700"
-                  decoding="async"
-                  data-nimg="1"
                   className="aspect-video object-cover"
                   style={{ color: "transparent" }}
                   src="https://images.pexels.com/photos/14936128/pexels-photo-14936128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -255,8 +266,6 @@ function Home() {
                   loading="lazy"
                   width="700"
                   height="700"
-                  decoding="async"
-                  data-nimg="1"
                   className="aspect-video object-cover"
                   style={{ color: "transparent" }}
                   src="https://png.pngtree.com/template/20190306/ourmid/pngtree-cloud-weather-logo-image_62021.jpg"
