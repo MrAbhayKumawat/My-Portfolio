@@ -26,7 +26,7 @@ function About() {
             <div className="flex gap-5 ">
               <Link
                 to={
-                  "https://drive.google.com/file/d/1Zfjv5ck1Hvpn0aeCiRRDss_2hzFtbOXD/view?usp=sharing"
+                  "https://drive.google.com/file/d/1g4MBgrFAAGLJHWh2-5Xxc_QMUB1-2x5c/view?usp=sharing"
                 }
                 target="_blank"
                 className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner  bg-blue-800 text-highlight text-xs py-2 px-4"
@@ -76,7 +76,10 @@ function About() {
           </div>
 
           <div>
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJcn-zfgsrglmWyTttwQN68y5BKLZHFHNwgQyzzAk1NvevLogKiuy6OvYKoT54k12yIdtSfPpqZhOHBj-G29WNdDzmPkrl1XSOONTMYaeWcWEh_7HcqD1LwqXK58jjbfDudGHYfnzod4kEN5cVVzFz3qxP86pJjXmHlbaqi8z4W4rIjQp4Rvu7HdTR4LRc/s320/photo1704724095.jpeg" className="rounded-full border-2 h-52" />
+            <img
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJcn-zfgsrglmWyTttwQN68y5BKLZHFHNwgQyzzAk1NvevLogKiuy6OvYKoT54k12yIdtSfPpqZhOHBj-G29WNdDzmPkrl1XSOONTMYaeWcWEh_7HcqD1LwqXK58jjbfDudGHYfnzod4kEN5cVVzFz3qxP86pJjXmHlbaqi8z4W4rIjQp4Rvu7HdTR4LRc/s320/photo1704724095.jpeg"
+              className="rounded-full border-2 h-52"
+            />
           </div>
         </div>
 

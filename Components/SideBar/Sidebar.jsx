@@ -12,7 +12,6 @@ function Sidebar({ children }) {
     setSidebarOpen(!isSidebarOpen);
   };
 
-    
   return (
     <>
       <div className="flex">
@@ -70,7 +69,6 @@ function Sidebar({ children }) {
             <div
               className="flex relative flex-col h-full p-5  rounded-lg w-full overflow-y-auto pb-20 md:pb-5 text-gray-300"
               style={{ background: "#1c1b23" }}
-             
             >
               <div
                 className="block lg:hidden p-5 z-10 text-primary absolute right-0 top-0 cursor-pointer text-2xl"
@@ -95,7 +93,7 @@ function Sidebar({ children }) {
               <Link
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
                 to="/"
-                 onClick={toggleSidebar}
+                onClick={toggleSidebar}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -159,8 +157,8 @@ function Sidebar({ children }) {
               <Link
                 target="blank"
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                to="https://github.com/abhaykmwt"
-                 onClick={toggleSidebar}
+                to="https://github.com/MrAbhayKumawat"
+                onClick={toggleSidebar}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -183,7 +181,7 @@ function Sidebar({ children }) {
                 target="blank"
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
                 to="https://www.facebook.com/people/Abhay-Kumawat/pfbid02djvyjvBW9ED5p8JRpFhw85SngQE2zBZQoBQf2GRPGXuT7cdDxM91gGPAbm47cwwel/"
-                 onClick={toggleSidebar}
+                onClick={toggleSidebar}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -204,8 +202,8 @@ function Sidebar({ children }) {
               <Link
                 target="blank"
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                to="https://twitter.com/AbhayKu29245043?t=XwnQa01Z7nEDSOjQrsLHKA&s=09"
-                 onClick={toggleSidebar}
+                to="https://twitter.com/MrAbhayKumawat  "
+                onClick={toggleSidebar}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -227,7 +225,7 @@ function Sidebar({ children }) {
                 target="blank"
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
                 to="https://www.linkedin.com/in/abhay-kumawat-a62a23213"
-                 onClick={toggleSidebar}
+                onClick={toggleSidebar}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -251,7 +249,7 @@ function Sidebar({ children }) {
                 target="blank"
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
                 to="https://api.whatsapp.com/send?phone=7489433640"
-                 onClick={toggleSidebar}
+                onClick={toggleSidebar}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -275,8 +273,9 @@ function Sidebar({ children }) {
               <Link
                 target="blank"
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                to="mailto:abhaykumawat81@gmail.com"
-                 onClick={toggleSidebar}
+                to="mailto:MrAbhayKumawat9@gmail.com
+                "
+                onClick={toggleSidebar}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

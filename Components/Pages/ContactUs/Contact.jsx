@@ -74,7 +74,7 @@ function Contact() {
               to={"mailto:abhaykumawat81@gmail.com"}
               className="text-blue-800"
             >
-              Abhaykumawat81@gmail.com
+              MrAbhayKumawat9@gmail.com
             </Link>
           </div>
         </div>

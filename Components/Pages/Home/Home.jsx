@@ -28,7 +28,7 @@ function Home() {
                   <Link
                     className="block md:hidden"
                     target="blank"
-                    to="mailto:abhaykumawat81@gmail.com"
+                    to="mailto:MrAbhayKumawat9@gmail.com"
                   >
                     <button
                       className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed bg-cardPrimary text-primary font-semibold text-xs p-2"
@@ -58,7 +58,7 @@ function Home() {
               <a
                 className="hidden md:block"
                 target="blank"
-                href="mailto:abhaykumawat81@gmail.com"
+                href="mailto:MrAbhayKumawat9@gmail.com"
               >
                 <button
                   className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner disabled:opacity-50 disabled:pointer-events-none disbaled:cursor-not-allowed  text-primary font-semibold text-xs py-2 px-4"
