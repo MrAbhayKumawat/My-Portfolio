@@ -77,7 +77,7 @@ function About() {
 
           <div>
             <img
-              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJcn-zfgsrglmWyTttwQN68y5BKLZHFHNwgQyzzAk1NvevLogKiuy6OvYKoT54k12yIdtSfPpqZhOHBj-G29WNdDzmPkrl1XSOONTMYaeWcWEh_7HcqD1LwqXK58jjbfDudGHYfnzod4kEN5cVVzFz3qxP86pJjXmHlbaqi8z4W4rIjQp4Rvu7HdTR4LRc/s320/photo1704724095.jpeg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiQYtdda4mqEciCsf5p26N2FLc9mQQejBYRyOZ9lr8EIhcxhAPNCp-vi50gneMn2PHEtgJ8uAIDFY_aiIo6O8bc8dNCVvnpE5HVRGeOLsc5Y1hhVNnToVWP_C3OuHwRic0QqhE8_-AvhoqphkRzlhJ-tZJmJ-HacEVJO9Usa_L4OaWsA3eTwVCeTb5o-Fx/s320/profile-pic.png"
               className="rounded-full border-2 h-52"
             />
           </div>

@@ -16,7 +16,7 @@ function Home() {
               decoding="async"
               data-nimg="1"
               className="object-cover border-2 border-white rounded-full shadow-md"
-              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhCeyeByt6wPOHlOg4IVZm0alVvAPjljY-zIB7pCTFjetqg5rYFqw9Gquq1RtmYOGYE6DqXQ2sVIzC1XG-EoRfhgfn1tDW_bpU_g9kIdZgnMf47tXxZ5QWJBVbBnGbogPYVdyEAqhi1lnJPI039qEvTeJAz4WPHbNwftEZmA9gMal1Aqs0tol_RHe_FRipJ/s320/photo1704354380.jpeg"
+              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiQYtdda4mqEciCsf5p26N2FLc9mQQejBYRyOZ9lr8EIhcxhAPNCp-vi50gneMn2PHEtgJ8uAIDFY_aiIo6O8bc8dNCVvnpE5HVRGeOLsc5Y1hhVNnToVWP_C3OuHwRic0QqhE8_-AvhoqphkRzlhJ-tZJmJ-HacEVJO9Usa_L4OaWsA3eTwVCeTb5o-Fx/s320/profile-pic.png"
             />
           </div>
           <div className="flex md:flex-1 flex-col justify-center gap-4">
