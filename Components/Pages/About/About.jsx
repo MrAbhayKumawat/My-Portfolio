@@ -26,7 +26,7 @@ function About() {
             <div className="flex gap-5 ">
               <Link
                 to={
-                  "https://drive.google.com/file/d/1g4MBgrFAAGLJHWh2-5Xxc_QMUB1-2x5c/view?usp=sharing"
+                  "https://drive.google.com/file/d/102yjlPHJFgOPUxVIR7zwb0hf4vuvvOxi/view?usp=sharing"
                 }
                 target="_blank"
                 className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner  bg-blue-800 text-highlight text-xs py-2 px-4"

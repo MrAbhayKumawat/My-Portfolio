@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <div className="flex rounded-lg w-full  bg-[url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtyx-nivteH4rOGSNOFIm9EeqstBd-7Qze5eKgytvrAHwGb0vB)] bg-no-repeat bg-cover">
+      <div className="flex rounded-lg w-full bg-[url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtyx-nivteH4rOGSNOFIm9EeqstBd-7Qze5eKgytvrAHwGb0vB)] bg-no-repeat bg-cover">
         <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
           <div className="">
             <img
@@ -303,6 +303,12 @@ function Home() {
               </div>
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
                 <img
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFrN4FMpbNdt4id4KekeXska9N0OcaYwS8-sgCzDB6wYwtYujn5XMaB8zwLWPldikWBRSZwCHQZYnEogS7Y7twjMiz4SX2grbsRY8h-nAiox6Ind13-kVaHqMBB1MrKQ0jQBjOY4dYeRkcaqULeC2-zJ22NLJTrhX4kisMAj9T4KAMvQN3oRKjzJyqEb9r/s320/pngwing.com.png"
+                  className="w-32"
+                ></img>
+              </div>
+              <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
+                <img
                   src="https://img.icons8.com/color/256/javascript.png"
                   className="w-32"
                 ></img>
@@ -313,9 +319,9 @@ function Home() {
                   className="w-32"
                 ></img>
               </div>
-              <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
+              <div className="w-40 h-40  p-5 pt-11 border border-sky-700 rounded-md">
                 <img
-                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoD237oGNaVDB3b7I1sKfI7d_3UTUNmXs6xlWTUuGQ_p2njaYz2zHQ7fJgoHC3BabvEBX_2jNxfuHEJ5yHwVLthjaPqpQqUB6Ow3I2Kwbne1q3azzOGyBODGRBMtwr4vBkXaTAhxLEaxUH8XcsCFxjYzhfnQTg3tBBaTgoUDPAgKVkqR1ZkqyTvdtZnlZn/s320/image-removebg-preview%20(5).png"
+                  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJ-OdV7Cuq6mTeZ_W1sgdEclGZP29HSkCawFJyKeBiDd1CMsGXLKfj8qfI4K-VZwXLTfkg_nxAoqFGINAN8FEr3UML2QneDJ0TMA1AyM07v4Lz074ADAQBpEw4AEjMPN2YE83Ocl8JioSQTTzFxcb7eksm9tQOHRMXGH7YLXZ4QGbxjpr0O0KXk9GJFME2/s320/pngwing.com%20(2).png"
                   className="w-32"
                 ></img>
               </div>
@@ -380,6 +386,13 @@ function Home() {
               <img
                 src="https://img.icons8.com/color/256/github.png "
                 alt="GitHub"
+                className="w-32"
+              ></img>
+            </div>
+            <div className="w-40 h-40 p-5 pl-2  border border-sky-700 rounded-md">
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXQ1jfqcdOXwZq7n3uIjxqVIXw-3V083DY6xhkfIYy1ZWV3p-Ic31QrFUjkiWkR34St6AixqTOVcETBQfGVI8QeWFhwrPhhf0EiQ0L3-eeM1AOQgyU52HZxECdzkeX3UXM8gn9DfiqFfYsqY7rQw-eokWpXaBhTpc_Hp45KCjFRWQtmqufDBi7rAEM8Sys/s320/pngwing.com%20(1).png"
+                alt="Postman"
                 className="w-32"
               ></img>
             </div>
