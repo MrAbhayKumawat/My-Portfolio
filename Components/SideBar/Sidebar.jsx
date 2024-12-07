@@ -18,7 +18,7 @@ function Sidebar({ children }) {
         <button
           type="button"
           onClick={toggleSidebar}
-          className="z-30 h-10 pt-7 pl-2 fixed"
+          className="z-30 h-10 pt-7 pl-5 fixed"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -248,7 +248,7 @@ function Sidebar({ children }) {
               <Link
                 target="blank"
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                to="https://api.whatsapp.com/send?phone=7489433640"
+                to="https://api.whatsapp.com/send?phone=7489433640&"
                 onClick={toggleSidebar}
               >
                 <svg
@@ -273,7 +273,7 @@ function Sidebar({ children }) {
               <Link
                 target="blank"
                 className="flex bg-transparent items-center placeholder:text-info transform transition-transform duration-300 hover:-translate-y-1 text-sm gap-4 p-4"
-                to="mailto:MrAbhayKumawat9@gmail.com
+                to="mailto:mrabhaykumawat9@gmail.com.com
                 "
                 onClick={toggleSidebar}
               >

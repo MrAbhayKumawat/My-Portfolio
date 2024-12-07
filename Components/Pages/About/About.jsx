@@ -1,32 +1,29 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../SideBar/Navbar";
 import Education from "./Education";
+import Experience from "./Experience";
 function About() {
   return (
     <>
       <Navbar />
 
       <div className="flex justify-center items-center">
-        <div className="flex justify-center items-center gap-x-16 sm:flex-col-reverse min-[300px]: flex-col-reverse lg:flex-row lg:gap-x-12- xl:flex-row 2xl:flex-row">
-          <div className="p-5 flex flex-col justify-center ">
+        <div className="flex justify-center items-center gap-x-28 sm:flex-col-reverse min-[300px]: flex-col-reverse lg:flex-row lg:gap-x-12- xl:flex-row 2xl:flex-row">
+          <div className="p-5 flex flex-col justify-center">
             <div className="text-xl font-medium mt-2 text-zinc-200 mb-5">
               About me
             </div>
-            <div className="flex text-info text-xs  leading-5  ">
-              As a front-end developer, I design and build visually appealing
-              websites and web applications. Proficient <br />
-              in HTML, CSS, JavaScript, I prioritize seamless user experiences
-              and optimal responsiveness across devices.
-              <br /> Keeping up with industry trends, I integrate innovative
-              technologies to enhance
-              <br /> accessibility and engagement for users interacting with the
-              site or application.
+            <div className="text-info text-xs leading-5 max-[1024px]:hidden">
+            As a skilled Full-Stack Web Developer, I excel in utilizing both front-end and back-end technologies such as<br/> <strong className="">  React.js, Next.js, Node.js, Express and MongoDB</strong>to create dynamic and robust web applications.  <br/>I focus on delivering exceptional user experiences by combining intuitive design with seamless functionality<br/>My approach to development is informed by industry trends and best practices, ensuring that.<br/>I provide innovative and efficient solutions. Collaboration and continuous learning are key aspects of my work,<br/> driving me to deliver high-quality results that leave a positive and lasting impact in the field of web development. 
+            </div>
+            <div className="text-info text-xs leading-5 min-[1025px]:hidden">
+            As a skilled Full-Stack Web Developer, I excel in utilizing both front-end and back-end technologies such as<br/> <strong className="">  React.js, Next.js, Node.js, Express and MongoDB</strong>to create dynamic and robust web applications.  <br/>I focus on delivering exceptional user experiences by combining intuitive design with seamless functionality<br/>My approach to development is informed by industry trends and best practices, ensuring that.<br/>I provide innovative and efficient solutions. Collaboration and continuous learning are key aspects of my work,<br/> driving me to deliver high-quality results that leave a positive and lasting impact in the field of web development. 
             </div>
             <br />
             <div className="flex gap-5 ">
               <Link
                 to={
-                  "https://drive.google.com/file/d/102yjlPHJFgOPUxVIR7zwb0hf4vuvvOxi/view?usp=sharing"
+                  "https://drive.google.com/file/d/1QDQxRwLzkq9p5Nu17i4zT7R1doIpbgQD/view?usp=sharing"
                 }
                 target="_blank"
                 className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner  bg-blue-800 text-highlight text-xs py-2 px-4"
@@ -85,6 +82,7 @@ function About() {
 
         {/* Education section  */}
       </div>
+      <Experience/>
       <Education />
     </>
   );

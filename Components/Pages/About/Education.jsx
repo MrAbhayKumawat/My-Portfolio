@@ -5,6 +5,7 @@ function Education() {
   return (
     <>
       {/* <!--   *******  Education Section Starts  *******   --> */}
+      
 
       <section className="col">
         <header className="title">
@@ -22,8 +23,7 @@ function Education() {
             </Link>
 
             <p>
-              I am doing my bachelor's degree in this University. My course is
-              Bachelors in technology in computer sceince..
+            I am pursuing a Bachelor’s degree in Technology in Computer Science at RGPV, Bhopal.
             </p>
           </div>
           <div className="box">
@@ -38,8 +38,8 @@ function Education() {
               </div>{" "}
             </Link>
             <p>
-              I hold a certificate from Devsnest's Front-End Web Dev Course,
-              where I acquired comprehensive front-end development skills..
+            Completed Devsnest's Front-End Web Development Course, earning a certificate and gaining comprehensive skills in
+            front-end technologies like <strong>React JS, Next JS, and Javascript.</strong>
             </p>
           </div>
         </div>

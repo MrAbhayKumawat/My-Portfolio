@@ -3,7 +3,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className="flex sticky shadow-md top-0 z-20  p-5 text-info justify-between "
+        className="flex sticky shadow-md top-0 z-20  p-5 text-info justify-between"
         style={{ background: "#14131a" }}
       >
         <div></div>

@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom";
 import Navbar from "../../SideBar/Navbar";
-
+import TypescriptLogo from "../../../assets/img/TechLogo/Typescript-Logo.png"
+import TodoImages from "../../../assets/img/TodoImg/TodoImage.jpg"
+import NodejsLogo from "../../../assets/img/node-js.svg"
+import ExpressLogo from "../../../assets/img/icons8-express-js-100.svg"
+import MongoDb from "../../../assets/img/mongodb-original-wordmark.svg"
 function Home() {
   return (
-    <>
+    <> 
       <Navbar />
       <div className="flex rounded-lg w-full bg-[url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtyx-nivteH4rOGSNOFIm9EeqstBd-7Qze5eKgytvrAHwGb0vB)] bg-no-repeat bg-cover">
         <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
@@ -24,7 +28,7 @@ function Home() {
               <div className="text-3xl flex flex-col font-bold text-highlight">
                 Abhay Kumawat
                 <div className="text-sm font-thin flex justify-between items-center">
-                  @FrontEndDeveloper
+                  @Full Stack Developer
                   <Link
                     className="block md:hidden"
                     target="blank"
@@ -92,25 +96,26 @@ function Home() {
         <section className="grid gap-8 p-5 mt-5 md:p-0">
           <div className="text-xl font-medium text-zinc-200">Projects</div>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl::grid-cols-4 gap-5 ">
+          
             <Link
               target="blank"
-              to="https://netcloneflix.vercel.app/"
+              to="https://todoappbyabhay.netlify.app/login"
               className="transition-transform hover:scale-95"
             >
               <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
                 <img
-                  alt="movie-website"
+                  alt="Bogging"
                   loading="lazy"
                   width="700"
                   height="700"
-                  className="aspect-video object-cover 	"
+                  className="aspect-video object-cover"
                   style={{ color: "transparent" }}
-                  src="https://happy-families.s3.ap-southeast-2.amazonaws.com/s3fs-public/styles/max_1300x1300/public/2022-10/AdobeStock_312349880%20%281%29.jpeg?itok=7BxOIvWX"
+                  src={TodoImages}
                 />
                 <div className="flex flex-col px-4 py-2 h-24">
-                  <div className="flex font-bold">Movie Website</div>
+                  <div className="flex font-bold">Todo Website</div>
                   <div className="flex text-info text-xs">
-                    React js , React Hook, TMDB Movie API Integretion...
+                    React js, Node Js, Express, MongoDb
                   </div>
                 </div>
               </div>
@@ -297,6 +302,24 @@ function Home() {
               </div>
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
                 <img
+                  src={NodejsLogo}
+                  className="w-32"
+                ></img>
+              </div>
+              <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
+                <img
+                  src={ExpressLogo}
+                  className="w-32"
+                ></img>
+              </div>
+              <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
+                <img
+                  src={MongoDb}
+                  className="w-32"
+                ></img>
+              </div>
+              <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
+                <img
                   src="https://www.rlogical.com/wp-content/uploads/2023/03/Rlogical-Blog-Images-thumbnail.webp"
                   className="w-32"
                 ></img>
@@ -304,6 +327,12 @@ function Home() {
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
                 <img
                   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiFrN4FMpbNdt4id4KekeXska9N0OcaYwS8-sgCzDB6wYwtYujn5XMaB8zwLWPldikWBRSZwCHQZYnEogS7Y7twjMiz4SX2grbsRY8h-nAiox6Ind13-kVaHqMBB1MrKQ0jQBjOY4dYeRkcaqULeC2-zJ22NLJTrhX4kisMAj9T4KAMvQN3oRKjzJyqEb9r/s320/pngwing.com.png"
+                  className="w-32"
+                ></img>
+              </div>
+              <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
+                <img
+                  src={TypescriptLogo}
                   className="w-32"
                 ></img>
               </div>
