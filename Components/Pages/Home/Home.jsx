@@ -1,13 +1,15 @@
+import React from "react";
+
 import { Link } from "react-router-dom";
 import Navbar from "../../SideBar/Navbar";
-import TypescriptLogo from "../../../assets/img/TechLogo/Typescript-Logo.png"
-import TodoImages from "../../../assets/img/TodoImg/TodoImage.jpg"
-import NodejsLogo from "../../../assets/img/node-js.svg"
-import ExpressLogo from "../../../assets/img/icons8-express-js-100.svg"
-import MongoDb from "../../../assets/img/mongodb-original-wordmark.svg"
+import TypescriptLogo from "../../../assets/img/TechLogo/Typescript-Logo.png";
+import TodoImages from "../../../assets/img/TodoImg/TodoImage.jpg";
+import NodejsLogo from "../../../assets/img/node-js.svg";
+import ExpressLogo from "../../../assets/img/icons8-express-js-100.svg";
+import MongoDb from "../../../assets/img/mongodb-original-wordmark.svg";
 function Home() {
   return (
-    <> 
+    <>
       <Navbar />
       <div className="flex rounded-lg w-full bg-[url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTtyx-nivteH4rOGSNOFIm9EeqstBd-7Qze5eKgytvrAHwGb0vB)] bg-no-repeat bg-cover">
         <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
@@ -96,7 +98,76 @@ function Home() {
         <section className="grid gap-8 p-5 mt-5 md:p-0">
           <div className="text-xl font-medium text-zinc-200">Projects</div>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl::grid-cols-4 gap-5 ">
-          
+            <Link
+              target="blank"
+              to="https://asianexchange.club"
+              className="transition-transform hover:scale-95"
+            >
+              <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                <img
+                  alt="Bogging"
+                  loading="lazy"
+                  width="700"
+                  height="700"
+                  className="aspect-video object-cover"
+                  style={{ color: "transparent" }}
+                  src={"https://images.pexels.com/photos/7594254/pexels-photo-7594254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+                />
+                <div className="flex flex-col px-4 py-2 h-24">
+                  <div className="flex font-bold"> AsianExchange: Betting Website</div>
+                  <div className="flex text-info text-xs">
+                    React js, Tailwind, Node Js, MongoDb
+                  </div>
+                </div>
+              </div>
+            </Link>
+            <Link
+              target="blank"
+              to="https://godebtfree.in/"
+              className="transition-transform hover:scale-95"
+            >
+              <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                <img
+                  alt="Bogging"
+                  loading="lazy"
+                  width="700"
+                  height="700"
+                  className="aspect-video object-cover"
+                  style={{ color: "transparent" }}
+                  src={"https://s3-ap-south-1.amazonaws.com/oasys-image/public/images/63748db376df710ee80ea2f-freed_website.jpg"}
+                />
+                <div className="flex flex-col px-4 py-2 h-24">
+                  <div className="flex font-bold"> Debt Free: Loan Settlement
+                  </div>
+                  <div className="flex text-info text-xs">
+                    React js, Tailwind Css
+                  </div>
+                </div>
+              </div>
+            </Link>
+            <Link
+              target="blank"
+              to="/"
+              className="transition-transform hover:scale-95"
+            >
+              <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                <img
+                  alt="Bogging"
+                  loading="lazy"
+                  width="700"
+                  height="700"
+                  className="aspect-video object-cover"
+                  style={{ color: "transparent" }}
+                  src={"https://images.pexels.com/photos/7109288/pexels-photo-7109288.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+                />
+                <div className="flex flex-col px-4 py-2 h-24">
+                  <div className="flex font-bold">Medius Finance System</div>
+                  <div className="flex text-info text-xs">
+                    React js, Bootstrap, Redux-Toolkit
+                  </div>
+                </div>
+              </div>
+            </Link>
             <Link
               target="blank"
               to="https://todoappbyabhay.netlify.app/login"
@@ -143,29 +214,8 @@ function Home() {
                 </div>
               </div>
             </Link>
-            <Link
-              target="blank"
-              to="https://poke-abhay.netlify.app/"
-              className="transition-transform hover:scale-95"
-            >
-              <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
-                <img
-                  alt="Bogging"
-                  loading="lazy"
-                  width="700"
-                  height="700"
-                  className="aspect-video object-cover"
-                  style={{ color: "transparent" }}
-                  src="https://w0.peakpx.com/wallpaper/6/78/HD-wallpaper-pokemon-go-2017-games-poster.jpg"
-                />
-                <div className="flex flex-col px-4 py-2 h-24">
-                  <div className="flex font-bold">Pokemon-App</div>
-                  <div className="flex text-info text-xs">
-                    React js , React Hook, FireBase, POkeApi, Material UI...
-                  </div>
-                </div>
-              </div>
-            </Link>
+          
+          
             <Link
               target="blank"
               to="https://musifyrington.netlify.app/"
@@ -216,6 +266,29 @@ function Home() {
             </Link>
             <Link
               target="blank"
+              to="https://poke-abhay.netlify.app/"
+              className="transition-transform hover:scale-95"
+            >
+              <div className="flex flex-col overflow-hidden gap-3 bg-white text-zinc-800 rounded-lg overflow-ellipsis">
+                <img
+                  alt="Bogging"
+                  loading="lazy"
+                  width="700"
+                  height="700"
+                  className="aspect-video object-cover"
+                  style={{ color: "transparent" }}
+                  src="https://w0.peakpx.com/wallpaper/6/78/HD-wallpaper-pokemon-go-2017-games-poster.jpg"
+                />
+                <div className="flex flex-col px-4 py-2 h-24">
+                  <div className="flex font-bold">Pokemon-App</div>
+                  <div className="flex text-info text-xs">
+                    React js , React Hook, FireBase, POkeApi, Material UI...
+                  </div>
+                </div>
+              </div>
+            </Link>
+            {/* <Link
+              target="blank"
               to="https://e-shopbyabhay.netlify.app/"
               className="transition-transform hover:scale-95"
             >
@@ -236,8 +309,8 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               target="blank"
               to="/"
               className="transition-transform hover:scale-95"
@@ -259,8 +332,8 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               target="blank"
               to="https://weather-app-by-abhay.vercel.app/"
               className="transition-transform hover:scale-95"
@@ -283,7 +356,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-            </Link>
+            </Link> */}
           </div>
         </section>
         {/* Skills Section */}
@@ -301,22 +374,13 @@ function Home() {
                 ></img>
               </div>
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
-                <img
-                  src={NodejsLogo}
-                  className="w-32"
-                ></img>
+                <img src={NodejsLogo} className="w-32"></img>
               </div>
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
-                <img
-                  src={ExpressLogo}
-                  className="w-32"
-                ></img>
+                <img src={ExpressLogo} className="w-32"></img>
               </div>
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
-                <img
-                  src={MongoDb}
-                  className="w-32"
-                ></img>
+                <img src={MongoDb} className="w-32"></img>
               </div>
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
                 <img
@@ -331,10 +395,7 @@ function Home() {
                 ></img>
               </div>
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
-                <img
-                  src={TypescriptLogo}
-                  className="w-32"
-                ></img>
+                <img src={TypescriptLogo} className="w-32"></img>
               </div>
               <div className="w-40 h-40  p-5 border border-sky-700 rounded-md">
                 <img

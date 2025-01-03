@@ -1,3 +1,4 @@
+import React from "react"
 import { Link } from "react-router-dom";
 import Navbar from "../../SideBar/Navbar";
 import Education from "./Education";
@@ -23,7 +24,7 @@ function About() {
             <div className="flex gap-5 ">
               <Link
                 to={
-                  "https://drive.google.com/file/d/1QDQxRwLzkq9p5Nu17i4zT7R1doIpbgQD/view?usp=sharing"
+                  "https://drive.google.com/file/d/1vyrcqR3r_lZ0MX7Fv2zWmd3PGAY8H-NG/view?usp=sharing"
                 }
                 target="_blank"
                 className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner  bg-blue-800 text-highlight text-xs py-2 px-4"

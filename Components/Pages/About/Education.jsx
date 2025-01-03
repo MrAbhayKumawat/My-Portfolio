@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+import React from "react"
+
 import "../About/Education.css";
 import { Link } from "react-router-dom";
 function Education() {
