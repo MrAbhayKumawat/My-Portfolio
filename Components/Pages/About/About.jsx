@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar from "../../SideBar/Navbar";
 import Education from "./Education";
 import Experience from "./Experience";
+import DevProfile from "../../../assets/img/DevProfile.jpg"
 function About() {
   return (
     <>
@@ -24,7 +25,7 @@ function About() {
             <div className="flex gap-5 ">
               <Link
                 to={
-                  "https://drive.google.com/file/d/1vyrcqR3r_lZ0MX7Fv2zWmd3PGAY8H-NG/view?usp=sharing"
+                  "https://drive.google.com/file/d/1dYNf6ZiKA5YPm3fGLzVzy4rX-Kb9xZwK/view?usp=sharing"
                 }
                 target="_blank"
                 className="h-max w-max flex gap-2 justify-center items-center rounded-md outline-0 active:scale-95 active:shadow-inner  bg-blue-800 text-highlight text-xs py-2 px-4"
@@ -75,7 +76,8 @@ function About() {
 
           <div>
             <img
-              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiQYtdda4mqEciCsf5p26N2FLc9mQQejBYRyOZ9lr8EIhcxhAPNCp-vi50gneMn2PHEtgJ8uAIDFY_aiIo6O8bc8dNCVvnpE5HVRGeOLsc5Y1hhVNnToVWP_C3OuHwRic0QqhE8_-AvhoqphkRzlhJ-tZJmJ-HacEVJO9Usa_L4OaWsA3eTwVCeTb5o-Fx/s320/profile-pic.png"
+              src={DevProfile}
+              alt="Abhay_Dev"
               className="rounded-full border-2 h-52"
             />
           </div>

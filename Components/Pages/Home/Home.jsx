@@ -7,6 +7,8 @@ import TodoImages from "../../../assets/img/TodoImg/TodoImage.jpg";
 import NodejsLogo from "../../../assets/img/node-js.svg";
 import ExpressLogo from "../../../assets/img/icons8-express-js-100.svg";
 import MongoDb from "../../../assets/img/mongodb-original-wordmark.svg";
+import DevProfile from "../../../assets/img/DevProfile.jpg"
+
 function Home() {
   return (
     <>
@@ -15,14 +17,14 @@ function Home() {
         <div className="flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10">
           <div className="">
             <img
-              alt="Abhay"
+              alt="Abhay_Dev"
               loading="lazy"
               width="120"
               height="120"
               decoding="async"
               data-nimg="1"
               className="object-cover border-2 border-white rounded-full shadow-md"
-              src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiQYtdda4mqEciCsf5p26N2FLc9mQQejBYRyOZ9lr8EIhcxhAPNCp-vi50gneMn2PHEtgJ8uAIDFY_aiIo6O8bc8dNCVvnpE5HVRGeOLsc5Y1hhVNnToVWP_C3OuHwRic0QqhE8_-AvhoqphkRzlhJ-tZJmJ-HacEVJO9Usa_L4OaWsA3eTwVCeTb5o-Fx/s320/profile-pic.png"
+              src={DevProfile}
             />
           </div>
           <div className="flex md:flex-1 flex-col justify-center gap-4">

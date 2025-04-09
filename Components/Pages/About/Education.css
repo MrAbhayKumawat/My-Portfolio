@@ -1,5 +1,5 @@
 .col {
-  padding: 35px 10%;
+  padding: 35px 5%;
 }
 
 .col header.title {
@@ -8,7 +8,6 @@
   padding: 0px 0px 20px 30px;
 }
 .content {
-  padding: 0px 29.2px;
   border-left: 2px solid rgb(106, 102, 102);
 }
 
@@ -22,7 +21,7 @@
 }
 
 .col .content .box::before {
-  content: "";
+  /* content: "";
   position: absolute;
   width: 16px;
   height: 16px;
@@ -30,7 +29,7 @@
   right: calc(100% + 22px);
   top: 0;
   background-color: #1e40af;
-  border: 1px solid white;
+  border: 1px solid white; */
 }
 .box h4 {
   position: relative;
@@ -51,5 +50,39 @@
 
   .row .col:nth-child(2) {
     margin-top: 30px;
+  }
+  
+}
+@media (min-width: 550px) {
+  .col {
+    padding: 35px 10%;
+  }
+  .row .col:nth-child(2) {
+    margin-top: 30px;
+  }
+  .content {
+    padding: 0px 29.2px;
+    border-left: 2px solid rgb(106, 102, 102);
+  }
+  
+  .col .content .box {
+    position: relative;
+    padding: 25px;
+   background-color: #1c1b23;
+    transition: all 0.4s;
+    border-radius: 1%;
+    margin-bottom: 20px;
+  }
+  
+  .col .content .box::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #1e40af;
+    border: 1px solid white;
   }
 }

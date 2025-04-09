@@ -13,6 +13,20 @@ export default function Experience() {
     <div className="content">
       <div className="box">
         <h4>Sep-2024 - Present</h4>
+        <h3>Full Stack Developer</h3>
+        <Link to={"https://thelitespeed.com/"} target="_blank">
+          <div className="text-md font-medium mb-2 text-blue-800">
+          The Lite Speed Private Limited
+          </div>
+        </Link>
+
+        <p>
+        As a Web Developer at  The Lite Speed Private Limited, I&apos;ve been responsible for building responsive and 
+            user-friendly web applications using modern technologies such as <strong>React, Next.js, Node Js, Express, MongoDb and Tailwind CSS</strong>. 
+            I&apos;ve collaborated with cross-functional teams to deliver high-quality products that meet client needs.        </p>
+      </div>
+      <div className="box">
+        <h4>Sep-2024 - Present</h4>
         <h3>React Js Developer Intern</h3>
         <Link to={"https://themedius.ai/"} target="_blank">
           <div className="text-md font-medium mb-2 text-blue-800">
