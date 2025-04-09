@@ -76,7 +76,7 @@ function About() {
 
           <div>
             <img
-              src={DevProfile}
+              src={"https://avatars.githubusercontent.com/u/110529307?v=4"}
               alt="Abhay_Dev"
               className="rounded-full border-2 h-52"
             />

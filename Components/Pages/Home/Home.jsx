@@ -24,7 +24,7 @@ function Home() {
               decoding="async"
               data-nimg="1"
               className="object-cover border-2 border-white rounded-full shadow-md"
-              src={DevProfile}
+              src={"https://avatars.githubusercontent.com/u/110529307?v=4"}
             />
           </div>
           <div className="flex md:flex-1 flex-col justify-center gap-4">
