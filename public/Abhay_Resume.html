@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Abhay Kumawat — Full Stack Developer</title>
+<style>
+  :root {
+    --navy: #1f3864;
+    --blue: #2e74b5;
+    --rule-light: #8eaadb;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --cell-bg: #eaf1fb;
+    --cell-border: #d5dce6;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html, body {
+    background: #fff;
+    color: var(--text);
+    font-family: Calibri, Carlito, "Segoe UI", Arial, sans-serif;
+    font-size: 8.7pt;
+    line-height: 1.18;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  @page { size: A4; margin: 0; }
+
+  .page {
+    width: 210mm;
+    min-height: 296mm;
+    margin: 0 auto;
+    padding: 6mm 12mm 5mm 12mm;
+    background: #fff;
+  }
+
+  a { color: var(--blue); }
+
+  /* ============ HEADER ============ */
+  .header {
+    text-align: center;
+    padding-bottom: 6px;
+    border-bottom: 1.5px solid var(--rule-light);
+    background: linear-gradient(var(--navy), var(--navy)) bottom / 100% 2.5px no-repeat;
+    margin-bottom: 8px;
+  }
+  .header h1 {
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--navy);
+    letter-spacing: 0.5px;
+    line-height: 1.15;
+  }
+  .header .role {
+    font-size: 9.8pt;
+    font-style: italic;
+    color: var(--blue);
+    margin-top: 2px;
+  }
+  .header .stack {
+    font-size: 9.8pt;
+    font-style: italic;
+    color: var(--blue);
+  }
+  .header .contact {
+    font-size: 9pt;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+  .header .contact a { color: var(--blue); text-decoration: underline; }
+
+  /* ============ SECTIONS ============ */
+  .section { margin-bottom: 5px; }
+  .section h2 {
+    font-size: 9.8pt;
+    font-weight: 700;
+    color: var(--navy);
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: 1.5px solid var(--rule-light);
+    background: linear-gradient(var(--navy), var(--navy)) bottom / 100% 2px no-repeat;
+    margin-bottom: 4px;
+  }
+  .summary { text-align: justify; }
+
+  /* ============ SKILLS TABLE ============ */
+  table.skills {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8.6pt;
+  }
+  table.skills td {
+    border: 1px solid var(--cell-border);
+    padding: 3px 10px;
+    vertical-align: top;
+  }
+  table.skills td.label {
+    width: 18%;
+    background: var(--cell-bg);
+    color: var(--navy);
+    font-weight: 700;
+  }
+
+  /* ============ EXPERIENCE / PROJECTS ============ */
+  .entry { margin-bottom: 4px; }
+  .entry:last-child { margin-bottom: 0; }
+  .company { color: var(--navy); font-weight: 700; }
+  .company .loc { color: var(--muted); font-weight: 400; }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .title { color: var(--blue); font-weight: 700; }
+  .date { color: var(--muted); font-style: italic; white-space: nowrap; }
+  .sub { color: var(--muted); font-style: italic; font-size: 8.5pt; }
+  .sub a { color: var(--blue); }
+
+  ul.bullets {
+    margin: 2px 0 2px 16px;
+    padding: 0;
+  }
+  ul.bullets li {
+    margin-bottom: 1px;
+    padding-left: 2px;
+  }
+  ul.bullets strong { font-weight: 700; }
+
+  .tech {
+    font-size: 8.2pt;
+    color: #333;
+  }
+  .tech b { color: var(--text); }
+
+  /* ============ EDUCATION ============ */
+  .edu { margin-bottom: 4px; }
+  .edu:last-child { margin-bottom: 0; }
+  .edu .degree { color: var(--navy); font-weight: 700; }
+  .edu .school { font-size: 8.6pt; }
+  .edu .school .date { font-size: 8.6pt; }
+
+  @media screen {
+    html { background: #e9ecef; }
+    .page { margin: 16px auto; box-shadow: 0 2px 12px rgba(0,0,0,0.12); }
+  }
+  @media print {
+    html { background: #fff; }
+    .page { margin: 0; box-shadow: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <header class="header">
+    <h1>ABHAY KUMAWAT</h1>
+    <div class="role">Full Stack Developer</div>
+    <div class="stack">MERN Stack | React.js | Next.js | TypeScript | Node.js | Real-Time Applications</div>
+    <div class="contact">
+      <a href="mailto:mrabhaykumawat9@gmail.com">mrabhaykumawat9@gmail.com</a> | +91-7489433640 |
+      <a href="https://www.linkedin.com/in/mrabhaykumawat">LinkedIn</a> |
+      <a href="https://github.com/MrAbhayKumawat">GitHub</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <h2>Professional Summary</h2>
+    <p class="summary">
+      Full Stack Developer with 3 years of experience building scalable, production-grade web applications, real-time
+      data platforms, and role-based admin dashboards. Specialized in React.js, Next.js, TypeScript, Node.js, Express.js,
+      and MongoDB, with hands-on expertise in WebSocket/Socket.IO real-time features, JWT authentication, RBAC, and
+      Redux Toolkit state management. Proven track record of delivering responsive, performance-optimized solutions
+      across FinTech and data-intensive products in collaborative, cross-functional Agile teams.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Technical Skills</h2>
+    <table class="skills">
+      <tr><td class="label">Languages</td><td>JavaScript (ES6+), TypeScript, HTML5, CSS3</td></tr>
+      <tr><td class="label">Frontend</td><td>React.js, Next.js, Redux Toolkit, Context API, Tailwind CSS, SASS, Material UI, Shadcn UI, Bootstrap, Responsive Design</td></tr>
+      <tr><td class="label">Backend</td><td>Node.js, Express.js, Fastify, RESTful APIs, JWT Authentication, Role-Based Access Control (RBAC), API Security, Error Handling, Input Validation, WebSocket, Socket.IO</td></tr>
+      <tr><td class="label">Databases</td><td>MongoDB, Mongoose, Redis, Schema Design, Query &amp; Index Optimization</td></tr>
+      <tr><td class="label">Tools &amp; DevOps</td><td>Git, GitHub, GitHub Actions, CI/CD, Docker, Vercel, Postman, Firebase, Vite, npm, Agile/Scrum</td></tr>
+      <tr><td class="label">AI &amp; Modern Tech</td><td>Gemini API, Prompt Engineering, Claude Code (Anthropic), Cursor, Antigravity, Webhooks</td></tr>
+    </table>
+  </section>
+
+  <section class="section">
+    <h2>Professional Experience</h2>
+
+    <div class="entry">
+      <div class="company">Eyukti Solutions <span class="loc">| Jaipur, Rajasthan</span></div>
+      <div class="row">
+        <span class="title">Full Stack Developer</span>
+        <span class="date">Jan 2026 – Present</span>
+      </div>
+      <ul class="bullets">
+        <li>Delivered <strong>full-stack, real-time web applications</strong> with <strong>sub-second live-data updates</strong> across high-traffic features, measured by live-update responsiveness, by engineering React.js, Next.js, TypeScript, Node.js, Express.js, and <strong>MongoDB/Mongoose</strong> services secured with <strong>JWT authentication</strong>.</li>
+        <li>Reduced <strong>refresh latency</strong> across high-traffic, data-intensive features, measured by faster live-update cycles, by building real-time UI modules with <strong>Socket.IO/WebSocket-driven data streams</strong> and dynamic rendering.</li>
+        <li>Cut new-feature UI development time by <strong>~40%</strong>, measured by sprint delivery speed, by architecting reusable component libraries with Tailwind CSS, Material UI, and Shadcn UI.</li>
+        <li>Secured multi-step workflows and user sessions across the application, measured by consistent role-scoped access control, by implementing <strong>Redux Toolkit</strong> state management alongside <strong>JWT-based session handling</strong> and <strong>RBAC</strong>-driven permission logic.</li>
+        <li>Improved <strong>API performance and reliability</strong> for transaction, wallet, and user-management endpoints, measured by faster client load times and fewer malformed-request errors, by optimizing REST APIs with input validation and centralized error handling, and shipping changes through <strong>CI/CD pipelines</strong>.</li>
+      </ul>
+      <div class="tech"><b>Tech Stack:</b> React.js, Next.js, TypeScript, Node.js, Express.js, MongoDB, Mongoose, Redux Toolkit, Socket.IO, JWT, Tailwind CSS, Material UI, Shadcn UI</div>
+    </div>
+
+    <div class="entry">
+      <div class="company">The Lite Speed Private Limited <span class="loc">| Ranchi, Jharkhand</span></div>
+      <div class="row">
+        <span class="title">Full Stack Developer</span>
+        <span class="date">Sep 2024 – Dec 2025</span>
+      </div>
+      <ul class="bullets">
+        <li>Delivered <strong>production-grade, mobile-first web applications</strong>, measured by consistent cross-device responsiveness, by building React.js and JavaScript (ES6+) interfaces styled with Tailwind CSS and Material UI.</li>
+        <li>Accelerated <strong>feature delivery across multiple client projects</strong>, measured by reduced UI build time from standardized patterns, by designing reusable component systems and a shared design-pattern library.</li>
+        <li>Enabled <strong>secure, role-based access</strong> for dashboards and customer-facing workflows, measured by properly scoped permissions across user roles, by integrating REST APIs with <strong>RBAC-driven authorization</strong> and <strong>JWT-verified sessions</strong>, in collaboration with backend and design teams.</li>
+        <li>Shipped <strong>production-ready releases faster</strong>, measured by reduced regression issues, by improving frontend performance through asset optimization, lazy loading, efficient state handling, and validating deployments via <strong>CI/CD pipelines</strong>.</li>
+      </ul>
+      <div class="tech"><b>Tech Stack:</b> React.js, JavaScript (ES6+), Tailwind CSS, Material UI, REST APIs, JWT, RBAC, CI/CD</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Projects</h2>
+
+    <div class="entry">
+      <div class="row">
+        <span><span class="title">Real-Time Data Platform</span> <span class="sub">| Full Stack Developer</span></span>
+        <span class="date">Sep 2024 – Present</span>
+      </div>
+      <ul class="bullets">
+        <li>Designed and developed a <strong>real-time, high-traffic web platform</strong> with complex multi-module Redux Toolkit state management, keeping live data, user sessions, and account balances in sync.</li>
+        <li>Integrated <strong>real-time data APIs</strong> and built admin functionality for managing platform data, users, and operational workflows.</li>
+      </ul>
+      <div class="tech"><b>Tech:</b> React.js, TypeScript, Redux Toolkit, Node.js, Tailwind CSS, WebSocket</div>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="title">Shree Amritashya – E-Commerce Platform</span>
+      </div>
+      <ul class="bullets">
+        <li>Architected and deployed a <strong>production-grade monorepo E-Commerce platform</strong> with dedicated Web and Admin applications, built independently outside core job responsibilities.</li>
+        <li>Implemented <strong>product catalog, cart, checkout, and booking workflows</strong> with a TypeScript/Next.js frontend and MongoDB backend.</li>
+        <li>Established automated <strong>CI/CD pipelines using GitHub Actions</strong> and deployed applications on Vercel.</li>
+      </ul>
+      <div class="tech"><b>Tech:</b> Next.js, React.js, Node.js, TypeScript, TurboRepo, MongoDB, GitHub Actions, Vercel</div>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span><span class="title">Debt Free – FinTech Platform</span> <span class="sub">| Frontend Developer | <a href="https://godebtfree.in">godebtfree.in</a></span></span>
+        <span class="date">Sep 2024 – Nov 2024</span>
+      </div>
+      <ul class="bullets">
+        <li>Built the <strong>complete frontend</strong> of a debt-settlement platform; integrated APIs for <strong>customer onboarding and loan settlement workflows</strong>.</li>
+        <li>Delivered fully responsive, cross-device interfaces with performance-optimized, intuitive design.</li>
+      </ul>
+      <div class="tech"><b>Tech:</b> React.js, Tailwind CSS, REST APIs</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Education</h2>
+    <div class="edu">
+      <div class="degree">Bachelor of Technology (B.Tech) – Computer Science</div>
+      <div class="school">Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal <span class="date">| 2021 – 2025</span></div>
+    </div>
+    <div class="edu">
+      <div class="degree">Frontend Web Development Program</div>
+      <div class="school">Devsnest, Online <span class="date">| 2019 – 2020</span></div>
+    </div>
+  </section>
+
+</div>
+
+</body>
+</html>
